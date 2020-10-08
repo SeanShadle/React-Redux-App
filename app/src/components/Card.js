@@ -29,14 +29,15 @@ const StyledParentDiv = styled.div`
     box-sizing: border-box;
     height:75vh;
     background-color: black;
+    width: 33%;
 `
 
 const StyledCard = styled.div`
     background-color: #f7f7f7;
-    width: 20vw;
+    width: 50%;
     height: 65vh;
     border-radius: 10px;
-    margin-left: 40vw;
+    margin-left: 10vw;
 `
 
 const StyledH1 = styled.h1`
@@ -45,7 +46,7 @@ const StyledH1 = styled.h1`
 const InfoDiv = styled.div`
     padding-top: 3vh;
     text-align: left;
-    margin-left: 6vw;
+    margin-left: 4.5vw;
 `
 
 const StyledImg = styled.img`

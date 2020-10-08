@@ -21,6 +21,8 @@ const mapStateToProps = state => {
 
 const StyledWrapper = styled.div`
 background-color: black;
+display: flex;
+flex-flow: row wrap;
 `
 
 export default connect(mapStateToProps)(CharacterCards);
